@@ -1,11 +1,14 @@
-import sys
+__author__ = 'Hamza Merzic'
+__license__ = 'Creative Commons Attribution-ShareAlike 3.0 Unported License'
+__version__ = '1.0'
+__maintainer__ = 'Hamza Merzic'
+
 import subprocess
 import smtplib
 from email.mime.text import MIMEText
 import datetime
 
-# Change to your own account information
-# Account Information
+# Your own account information.
 to = 'your.email@gmail.com' # Email to send to.
 gmail_user = 'senders.email@gmail.com' # Email to send from. (MUST BE GMAIL)
 gmail_password = 'senderspassword' # Gmail password.

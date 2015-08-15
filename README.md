@@ -28,3 +28,6 @@ If you want to execute the script each day at 12:00, append the fallowing comman
 ```
 0 12 * * * python /home/user/public_ip_handler.py
 ```
+
+### Atribution
+The [public_ip_hander.py](public_ip_handler.py) is a modification of the [startup_mailer.py](http://elinux.org/RPi_Email_IP_On_Boot_Debian) script under the "Creative Commons Attribution-ShareAlike 3.0 Unported License".
